@@ -15,7 +15,7 @@ const Header = () => {
     // </div>
 
     <header>
-      <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+      <nav class="navbar navbar-expand-lg  py-6 bg-white relative flex items-center w-full justify-between">
         <div class="px-6 w-full flex flex-wrap items-center justify-between">
           <div class="flex items-center">
             <button
@@ -47,7 +47,7 @@ const Header = () => {
             class="navbar-collapse collapse grow items-center"
             id="navbarSupportedContentY"
           >
-            <div className="hidden lg:flex w-10 pl-4 items-center">
+            <div className="hidden lg:flex w-16 pl-4 items-center">
               <img src={headerlogo} alt="" />
             </div>
           </div>
@@ -56,7 +56,7 @@ const Header = () => {
             <div className="hover:text-purple-800 tracking-wide text-lg font-light">
               Mentorship
             </div>
-            <div className="border border-purple-800 px-5 rounded-full text-purple-800 hover:bg-purple-600 hover:text-white tracking-wide text-lg font-light">
+            <div className="border border-[#7510F7] px-3 py-1 rounded-full text-[#7510F7] hover:bg-[#7510F7] hover:text-white tracking-wide text-lg font-light">
               Say Hello
             </div>
           </div>
